@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: black;
+}
+
+head{
+    display:inline-block;
+    width:100vw;
+    height:10vh;
+    position:absolute;
+    position:fixed;
+    top:0px;
+    background: rgb(15, 15, 15);
+}
+.headerLogo{
+    display:inline-flex;
+    width: 20vw;
+    height:10vh;
+    font-family: 'Dancing Script', cursive;
+    font-size:2.5em;
+    align-items:center;
+    justify-content:center;
+    position:-webkit-sticky;
+    position:sticky;
+    color: white;
+    top:0px;
+}
+.headerSeccion{
+    display:inline-flex;
+    position: relative;
+    width:25vw;
+    height:10vh;
+    float:right;
+    position:-webkit-sticky;
+    position:sticky;
+    top:0px;
+}
+ul{
+    display:inline-flex;
+    width:100%;
+}
+li{
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin:0 0 0 1vw;
+    text-decoration: none;
+}
+li a{
+    list-style: none;
+    text-decoration:none;
+    color:rgb(255, 255, 255);
+    font-family: 'Overpass', sans-serif;
+}
+li a:hover{
+    font-weight:bolder;
+    text-decoration:underline;
+    font-size:1.2em;
+}
+.headerLogo a{
+    text-decoration: none;
+    color:white;
+}
+.portada{
+    display: inline-flex;
+    box-sizing: content-box;
+    align-items: center;
+    justify-content: center;
+    font-size:3.5em;
+    width:100%;
+    height:85vh;
+    background-image:url("../Imagenes/portada2_1.jpg");
+    background-repeat: no-repeat;
+    background-size:100%;
+    color:rgb(255, 255, 255);
+    font-family: 'Anton', sans-serif;
+    text-shadow:2px 2px 2px black;
+    box-shadow:10px 10px 10px  rgb(94, 0, 24);
+    margin:0 0 25px 0;
+}
